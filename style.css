@@ -1,0 +1,38 @@
+body {
+	font-family: Helvetica;
+	background-color: black;
+	color: white;
+}
+
+a { 
+	color: inherit; 
+} 
+
+h1 {
+	background-color: black;
+	color: white;
+}
+
+thead {
+	background-color: grey;
+}
+
+table, th, td {
+	padding: 10px;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+th {
+	column-width: 100px;
+	height: 50px;
+	color: white;
+}
+
+td{
+	text-align: center;
+}
+
+.entered {
+	background-color: darkgrey;
+}
