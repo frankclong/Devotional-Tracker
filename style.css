@@ -36,3 +36,11 @@ td{
 .entered {
 	background-color: darkgrey;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 50px;
+  grid-row-gap: 10px;
+  padding: 10px;
+}
