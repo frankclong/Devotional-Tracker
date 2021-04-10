@@ -72,6 +72,7 @@ const bookNumbers = {
 	"Jude" : 65,
 	"Revelation" : 66
 }
+const windowWidth = window.innerWidth;
 
 // Bible stuff
 const apiKey = config.API_KEY;
@@ -127,3 +128,6 @@ fetch(urlBible + verse, {
 
 const notesTextArea = document.getElementById("notes");
 notesTextArea.innerHTML = inputRef;
+// set number of rows and columns based on width of screen, should be dynamic? TODO: add script to run whenever window size changes
+let numCols = windowWidth / 25;
+notesTextArea.setAttribute("cols", numCols)
